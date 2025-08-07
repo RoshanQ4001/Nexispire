@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Our Portfolio - NEXispire</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lucide/0.263.1/lucide.min.css">
+</head>
+<body>
+ <nav class="navbar">
+        <div class="container">
+            <div class="navbar-brand">
+                <div class="logo">
+                    <img src="/frontend/images/logo.jpg" alt="NEXispire Logo">
+                </div>
+                <span class="brand-name">NEXispire</span>
+            </div>
+
+            <button class="mobile-menu-toggle" aria-label="Toggle menu">
+                <span class="menu-icon"></span>
+            </button>
+
+            <div class="navbar-menu">
+                <ul class="navbar-links">
+                    <li><a href="index.html" >Home</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="portfolio.html">Portfolio</a></li>
+                    <li><a href="blog.html">Blog</a></li>
+                    <li><a href="contact.html" class="active">Contact</a></li>
+                </ul>
+                <div class="navbar-cta">
+                    <a href="#" class="btn btn-primary">Get Started</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <section class="portfolio-hero">
+        <div class="container">
+            <div class="portfolio-hero-content">
+                <h1>Our <span class="highlight">Work</span></h1>
+                <p>See how we've helped businesses like yours succeed online</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="portfolio">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-badge">Case Studies</span>
+                <h2>Featured <span class="highlight">Projects</span></h2>
+                <p>Explore our recent work across various industries and business needs</p>
+            </div>
+
+            <div class="portfolio-filter">
+                <button class="filter-btn active" data-filter="all">All</button>
+                <button class="filter-btn" data-filter="ecommerce">E-commerce</button>
+                <button class="filter-btn" data-filter="corporate">Corporate</button>
+                <button class="filter-btn" data-filter="portfolio">Portfolio</button>
+                <button class="filter-btn" data-filter="blog">Blog</button>
+            </div>
+
+            <div class="portfolio-grid">
+                <div class="portfolio-item" data-category="ecommerce">
+                    <div class="portfolio-image">
+                        <img src="/images/BOUTIQUE.png" alt="E-commerce Website">
+                        <div class="portfolio-overlay">
+                            <h3>Boutique Fashion Store</h3>
+                            <a href="#" class="btn btn-outline">View Case Study</a>
+                        </div>
+                    </div>
+                    <div class="portfolio-info">
+                        <h3>Boutique Fashion Store</h3>
+                        <p>E-commerce • Fashion</p>
+                    </div>
+                </div>
+
+                <div class="portfolio-item" data-category="corporate">
+                    <div class="portfolio-image">
+                        <img src="images/Finance.png" alt="Corporate Website">
+                        <div class="portfolio-overlay">
+                            <h3>Financial Services Firm</h3>
+                            <a href="#" class="btn btn-outline">View Case Study</a>
+                        </div>
+                    </div>
+                    <div class="portfolio-info">
+                        <h3>Financial Services Firm</h3>
+                        <p>Corporate • Finance</p>
+                    </div>
+                </div>
+
+                <div class="portfolio-item" data-category="portfolio">
+                    <div class="portfolio-image">
+                        <img src="images/photographer.png" alt="Portfolio Website">
+                        <div class="portfolio-overlay">
+                            <h3>Photographer Portfolio</h3>
+                            <a href="#" class="btn btn-outline">View Case Study</a>
+                        </div>
+                    </div>
+                    <div class="portfolio-info">
+                        <h3>Photographer Portfolio</h3>
+                        <p>Portfolio • Creative</p>
+                    </div>
+                </div>
+
+                <div class="portfolio-item" data-category="blog">
+                    <div class="portfolio-image">
+                        <img src="images/Travelblog.png" alt="Blog Website">
+                        <div class="portfolio-overlay">
+                            <h3>Travel Blog</h3>
+                            <a href="#" class="btn btn-outline">View Case Study</a>
+                        </div>
+                    </div>
+                    <div class="portfolio-info">
+                        <h3>Travel Blog</h3>
+                        <p>Blog • Travel</p>
+                    </div>
+                </div>
+
+                <div class="portfolio-item" data-category="ecommerce">
+                    <div class="portfolio-image">
+                        <img src="images/Grocery.png" alt="E-commerce Website">
+                        <div class="portfolio-overlay">
+                            <h3>Organic Food Store</h3>
+                            <a href="#" class="btn btn-outline">View Case Study</a>
+                        </div>
+                    </div>
+                    <div class="portfolio-info">
+                        <h3>Organic Food Store</h3>
+                        <p>E-commerce • Food</p>
+                    </div>
+                </div>
+
+                <div class="portfolio-item" data-category="corporate">
+                    <div class="portfolio-image">
+                        <img src="images/Lawfirm.png" alt="Corporate Website">
+                        <div class="portfolio-overlay">
+                            <h3>Law Firm Website</h3>
+                            <a href="#" class="btn btn-outline">View Case Study</a>
+                        </div>
+                    </div>
+                    <div class="portfolio-info">
+                        <h3>Law Firm Website</h3>
+                        <p>Corporate • Legal</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="cta">
+        <div class="container">
+            <div class="cta-content">
+                <h2>Ready to Start Your Project?</h2>
+                <p>Let's create something amazing together.</p>
+                <div class="cta-actions">
+                    <a href="contact.html" class="btn btn-primary">Get Started</a>
+                    <a href="services.html" class="btn btn-secondary">Our Services</a>
+                </div>
+            </div>
+        </div>
+    </section>
+        <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-about">
+                    <div class="footer-logo">
+                        <img src="images/logo.jpg" alt="NEXispire Logo">
+                        <span>NEXispire</span>
+                    </div>
+                    <p>Helping small businesses establish a powerful online presence with professional website solutions.</p>
+                    <div class="footer-social">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+
+                <div class="footer-links">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="services.html">Services</a></li>
+                        <li><a href="portfolio.html">Portfolio</a></li>
+                        <li><a href="blog.html">Blog</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-links">
+                    <h3>Services</h3>
+                    <ul>
+                        <li><a href="#">Web Design</a></li>
+                        <li><a href="#">Web Hosting</a></li>
+                        <li><a href="#">E-commerce</a></li>
+                        <li><a href="#">SEO</a></li>
+                        <li><a href="#">Maintenance</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-contact">
+                    <h3>Contact Us</h3>
+                    <ul>
+                        <li><i data-lucide="mail"></i> nexispirepvtltd@gmail.com</li>
+                        <li><i data-lucide="phone"></i>+91 9348137604 +91 72053 14687</li>
+                        <li><i data-lucide="map-pin"></i>ITER BHUBABESWAR ODISHA INDIA</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                <p>&copy; 2023 NEXispire. All rights reserved.</p>
+                <div class="footer-legal">
+                    <a href="#">Privacy Policy</a>
+                    <a href="#">Terms of Service</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- Load Lucide first -->
+<script src="https://unpkg.com/lucide@latest"></script>
+<!-- Then your custom script -->
+<script src="script.js"></script>
+    </body>
+
+  
